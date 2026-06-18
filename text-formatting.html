@@ -4,10 +4,39 @@
         <meta charset="utf-8">
         <title>DS2509 Demo Site - Text Formatting</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-         <h1>Formatting tags</h1>
+        <!-- Add our site's navigation bar -->
+         <nav class="main-nav" aria-label="Main navigation">
+
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="forms.html" class="nav-link">Forms</a></li>
+                <li><a href="text-formatting.html" class="nav-link">Text Formatting</a></li>
+                <li><a href="images.html" class="nav-link">Images</a></li>
+                <li><a href="links.html" class="nav-link">Links</a></li>
+                <li><a href="lists.html" class="nav-link">Lists</a></li>
+            </ul>
+            <!-- Mobile hamburger button (hidden on larger screens) -->
+             <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list"><i class="bi bi-list"></i></button>
+         </nav>
+        <div id="container">
+            <section class="social-section text-center mt-5" aria-labelledby="social-heading">
+        <h2 id="social-heading" class="section-heading">Follow us on social media</h2>
+        <ul class="social-icons">
+        <li>
+            <a href="https://www.linkedin.com/in/nyanjui-arthur/" class="icon-link" target="_blank" aria-label="LinkedIn" rel="noopener noreferer" title="Follow us on LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a></li>
+        <li><a href="https://www.youtube.com/channel/UCwD-lQ7Y2bJTu9cosQTJQhg" class="icon-link" target="_blank" aria-label="YouTube" rel="noopener noreferer" title="Subscribe to our youtube channel"><i class="bi bi-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com" class="icon-link" target="_blank" aria-label="Instagram" rel="noopener noreferer" title="Follow us on Instagram"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com" class="icon-link" target="_blank" aria-label="Facebook" rel="noopener noreferer" title="Follow us on Facebook"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://github.com/NyanjuiA" class="icon-link" target="_blank" aria-label="Github" rel="noopener noreferer" title="Follow us on GitHub"><i class="bi bi-github"></i></a></li>
+        <li><a href="https://www.behance.net/gallery/57743939/Nyanjuis-Portfolio" class="icon-link" target="_blank" aria-label="Behance" rel="noopener noreferer"  title="View our Behance portfolio"><i class="bi bi-behance"></i></a></li>
+        </ul>
+    </section>
+         <h1 class="page-heading">Formatting tags</h1>
 
 <p>This page demonstrates the various HTML text formatting tags!</p>
 
@@ -49,7 +78,7 @@ printf("Hello World!");<br/>
 </code>
 <p>The program outputs/displays...</p>
 <samp>Hello World!</samp>        
-        <footer>
+        <footer class="page-footer">
             DS 2509 Copyright &copy; 2024 - 
             <span id="currYear">
                 <script defer>
@@ -58,5 +87,7 @@ printf("Hello World!");<br/>
                 </script>
             </span>
         </footer>
+        </div>
+        <script src="js/nav_toggle.js" async></script>
     </body>
 </html>

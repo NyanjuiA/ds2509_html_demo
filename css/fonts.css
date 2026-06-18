@@ -1,0 +1,40 @@
+
+/* Link to the Arimo font face */
+@font-face 
+{
+    font-family: 'Arimo';
+    src: url('../webfonts/arimo/Arimo.woff2') format('woff2'),
+        url('../webfonts/arimo/Arimo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../webfonts/caviar/caviar_dreams-webfont.woff2') format('woff2'),
+         url('../webfonts/caviar/caviar_dreams-webfont.woff') format('woff'),
+         url('../webfonts/caviar/caviar_dreams-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Link to the gv time regular font face */
+@font-face 
+{
+    font-family: 'gv._timeregular';
+    src: url('../webfonts/gvtime_regular/gvtimeregular-bw768-webfont.woff2') format('woff2'),
+         url('../webfonts/gvtime_regular/gvtimeregular-bw768-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'limelightregular';
+    src: url('../webfonts/limelight_regular/limelight-webfont.woff2') format('woff2'),
+         url('../webfonts/limelight_regular/limelight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
